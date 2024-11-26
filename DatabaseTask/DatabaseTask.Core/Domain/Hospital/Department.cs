@@ -11,5 +11,7 @@ namespace DatabaseTask.Core.Domain.Hospital
     {
         [Key]
         public Guid Id { get; set; }
+        public string DepartmentName { get; set; }
+        public int staffAmount { get; set; }
     }
 }
